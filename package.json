@@ -1,0 +1,65 @@
+{
+  "name": "angular-skeleton-app",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "npx jest",
+    "test:watch": "npx jest --watch",
+    "test:watchAll": "npx jest --watchAll",
+    "test:coverage": "npx jest --coverage",
+    "serve:ssr:angular-skeleton-app": "node dist/angular-skeleton-app/server/server.mjs",
+    "lint": "ng lint",
+    "lint:fix": "ng lint --fix",
+    "format": "prettier --write ."
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^20.1.0",
+    "@angular/compiler": "^20.1.0",
+    "@angular/core": "^20.1.0",
+    "@angular/forms": "^20.1.0",
+    "@angular/platform-browser": "^20.1.0",
+    "@angular/platform-server": "^20.1.0",
+    "@angular/router": "^20.1.0",
+    "@angular/ssr": "^20.1.3",
+    "@tailwindcss/postcss": "^4.1.11",
+    "express": "^5.1.0",
+    "postcss": "^8.5.6",
+    "rxjs": "~7.8.0",
+    "tailwindcss": "^4.1.11",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^20.1.3",
+    "@angular/cli": "^20.1.3",
+    "@angular/compiler-cli": "^20.1.0",
+    "@types/express": "^5.0.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.2.1",
+    "angular-eslint": "20.1.1",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "jest": "^30.0.5",
+    "jest-preset-angular": "^15.0.0",
+    "prettier": "^3.6.2",
+    "prettier-eslint": "^16.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.39.0"
+  }
+}
