@@ -1,4 +1,4 @@
-<img alt="Logo de Angular" src="./public/assets/angular-logo.svg" style="display: block; margin: 0 auto" height=200 width=600 />
+<img alt="Logo de Angular" src="./public/assets/images/angular-logo.svg" style="display: block; margin: 0 auto" height=200 width=600 />
 
 # Angular Skeleton App
 
@@ -51,7 +51,7 @@ npm run test
 Ejecute el siguiente comando:
 
 ```
-ng add @angular-eslint
+ng add angular-eslint
 ```
 
 ```
