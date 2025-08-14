@@ -30,7 +30,7 @@ ng generate --help
 
 ## Compilación
 
-Para compilr el proyecto, ejecute:
+Para compilar el proyecto, ejecute:
 
 ```
 ng build
