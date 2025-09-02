@@ -55,7 +55,7 @@ ng add angular-eslint
 ```
 
 ```
-npm i prettier-eslint eslint-config-prettier eslint-plugin-prettier --save-dev
+npm i prettier prettier-eslint eslint-config-prettier eslint-plugin-prettier --save-dev
 ```
 
 Más información de [integración de Prettier con ESLint](https://prettier.io/docs/related-projects#eslint-integrations).
